@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		74C3C0BE2F51C2CC0052FD2A /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C3C0BD2F51C2CC0052FD2A /* Charts.framework */; };
+		74C3C0C02F51C2D80052FD2A /* SwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C3C0BF2F51C2D80052FD2A /* SwiftData.framework */; };
+		74C3C0C22F51C2EA0052FD2A /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C3C0C12F51C2EA0052FD2A /* Network.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		74C3C06A2F51C1D60052FD2A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,9 @@
 		74C3C05A2F51C1D50052FD2A /* SokoMkononi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SokoMkononi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C3C0692F51C1D60052FD2A /* SokoMkononiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SokoMkononiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C3C0732F51C1D60052FD2A /* SokoMkononiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SokoMkononiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C3C0BD2F51C2CC0052FD2A /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = System/Library/Frameworks/Charts.framework; sourceTree = SDKROOT; };
+		74C3C0BF2F51C2D80052FD2A /* SwiftData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftData.framework; path = System/Library/Frameworks/SwiftData.framework; sourceTree = SDKROOT; };
+		74C3C0C12F51C2EA0052FD2A /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +61,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C3C0C02F51C2D80052FD2A /* SwiftData.framework in Frameworks */,
+				74C3C0BE2F51C2CC0052FD2A /* Charts.framework in Frameworks */,
+				74C3C0C22F51C2EA0052FD2A /* Network.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +90,7 @@
 				74C3C05C2F51C1D50052FD2A /* SokoMkononi */,
 				74C3C06C2F51C1D60052FD2A /* SokoMkononiTests */,
 				74C3C0762F51C1D60052FD2A /* SokoMkononiUITests */,
+				74C3C0BC2F51C2CC0052FD2A /* Frameworks */,
 				74C3C05B2F51C1D50052FD2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +103,16 @@
 				74C3C0732F51C1D60052FD2A /* SokoMkononiUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		74C3C0BC2F51C2CC0052FD2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74C3C0C12F51C2EA0052FD2A /* Network.framework */,
+				74C3C0BF2F51C2D80052FD2A /* SwiftData.framework */,
+				74C3C0BD2F51C2CC0052FD2A /* Charts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

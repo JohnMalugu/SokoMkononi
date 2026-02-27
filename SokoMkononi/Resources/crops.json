@@ -1,0 +1,146 @@
+[
+  {
+    "id": "1",
+    "name": "Mahindi (Maize)",
+    "category": "Cereals",
+    "current_price": 950,
+    "unit": "kg",
+    "region": "Dar es Salaam",
+    "trend": "up",
+    "history": [
+      {"date": "2024-05-01", "price": 820},
+      {"date": "2024-05-05", "price": 850},
+      {"date": "2024-05-10", "price": 870},
+      {"date": "2024-05-15", "price": 900},
+      {"date": "2024-05-20", "price": 920},
+      {"date": "2024-05-25", "price": 940},
+      {"date": "2024-05-30", "price": 950}
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Korosho (Cashews)",
+    "category": "Nuts",
+    "current_price": 2400,
+    "unit": "kg",
+    "region": "Mtwara",
+    "trend": "down",
+    "history": [
+      {"date": "2024-05-01", "price": 2800},
+      {"date": "2024-05-05", "price": 2750},
+      {"date": "2024-05-10", "price": 2700},
+      {"date": "2024-05-15", "price": 2600},
+      {"date": "2024-05-20", "price": 2500},
+      {"date": "2024-05-25", "price": 2450},
+      {"date": "2024-05-30", "price": 2400}
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Kahawa (Coffee)",
+    "category": "Nuts",
+    "current_price": 5200,
+    "unit": "kg",
+    "region": "Arusha",
+    "trend": "up",
+    "history": [
+      {"date": "2024-05-01", "price": 4800},
+      {"date": "2024-05-05", "price": 4900},
+      {"date": "2024-05-10", "price": 5000},
+      {"date": "2024-05-15", "price": 5100},
+      {"date": "2024-05-20", "price": 5150},
+      {"date": "2024-05-25", "price": 5180},
+      {"date": "2024-05-30", "price": 5200}
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Mpunga (Rice)",
+    "category": "Cereals",
+    "current_price": 1100,
+    "unit": "kg",
+    "region": "Mbeya",
+    "trend": "stable",
+    "history": [
+      {"date": "2024-05-01", "price": 1080},
+      {"date": "2024-05-05", "price": 1090},
+      {"date": "2024-05-10", "price": 1100},
+      {"date": "2024-05-15", "price": 1095},
+      {"date": "2024-05-20", "price": 1105},
+      {"date": "2024-05-25", "price": 1100},
+      {"date": "2024-05-30", "price": 1100}
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Nyanya (Tomatoes)",
+    "category": "Vegetables",
+    "current_price": 800,
+    "unit": "kg",
+    "region": "Dodoma",
+    "trend": "up",
+    "history": [
+      {"date": "2024-05-01", "price": 500},
+      {"date": "2024-05-05", "price": 560},
+      {"date": "2024-05-10", "price": 620},
+      {"date": "2024-05-15", "price": 680},
+      {"date": "2024-05-20", "price": 720},
+      {"date": "2024-05-25", "price": 770},
+      {"date": "2024-05-30", "price": 800}
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Maharage (Beans)",
+    "category": "Legumes",
+    "current_price": 1800,
+    "unit": "kg",
+    "region": "Mwanza",
+    "trend": "down",
+    "history": [
+      {"date": "2024-05-01", "price": 2200},
+      {"date": "2024-05-05", "price": 2150},
+      {"date": "2024-05-10", "price": 2100},
+      {"date": "2024-05-15", "price": 2000},
+      {"date": "2024-05-20", "price": 1950},
+      {"date": "2024-05-25", "price": 1900},
+      {"date": "2024-05-30", "price": 1800}
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Vitunguu (Onions)",
+    "category": "Vegetables",
+    "current_price": 600,
+    "unit": "kg",
+    "region": "Morogoro",
+    "trend": "stable",
+    "history": [
+      {"date": "2024-05-01", "price": 580},
+      {"date": "2024-05-05", "price": 590},
+      {"date": "2024-05-10", "price": 600},
+      {"date": "2024-05-15", "price": 610},
+      {"date": "2024-05-20", "price": 605},
+      {"date": "2024-05-25", "price": 600},
+      {"date": "2024-05-30", "price": 600}
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Mnanasi (Pineapple)",
+    "category": "Fruits",
+    "current_price": 1200,
+    "unit": "kg",
+    "region": "Dar es Salaam",
+    "trend": "up",
+    "history": [
+      {"date": "2024-05-01", "price": 900},
+      {"date": "2024-05-05", "price": 950},
+      {"date": "2024-05-10", "price": 1000},
+      {"date": "2024-05-15", "price": 1050},
+      {"date": "2024-05-20", "price": 1100},
+      {"date": "2024-05-25", "price": 1150},
+      {"date": "2024-05-30", "price": 1200}
+    ]
+  }
+]
