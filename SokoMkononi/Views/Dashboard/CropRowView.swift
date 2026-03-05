@@ -10,13 +10,13 @@ struct CropRowView: View {
             
             // Main Info
             VStack(alignment: .leading, spacing: 4) {
-                
+
                 Text(crop.name)
                     .font(.system(.body, design: .rounded, weight: .semibold))
                     .foregroundStyle(AppTheme.textPrimary)
 
                 Text(crop.category)
-                    .font(.system(size: 10, weight: .semibold))
+                    .font(.system(size: 10, weight: .bold))
                     .foregroundColor(Color.green.opacity(0.8))
                     .padding(.horizontal, 8)
                     .padding(.vertical, 2)
