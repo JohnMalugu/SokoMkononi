@@ -9,7 +9,7 @@ struct CropRowView: View {
             categoryIcon
             
             // Main Info
-            VStack(alignment: .leading, spacing: 4) {
+            VStack(alignment: .leading, spacing: 6) {
 
                 Text(crop.name)
                     .font(.system(.body, design: .rounded, weight: .semibold))
@@ -38,7 +38,7 @@ struct CropRowView: View {
             Spacer()
             
             // Price & Trend
-            VStack(alignment: .trailing, spacing: 4) {
+            VStack(alignment: .trailing, spacing: 6) {
                 Text(crop.currentPrice.formattedAsTZS(unit: crop.unit))
                     .font(.system(.subheadline, design: .monospaced, weight: .bold))
                     .foregroundStyle(AppTheme.textPrimary)
