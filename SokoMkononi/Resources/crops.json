@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "name": "Maize",
+    "name": "Mahindi (Maize)",
     "category": "Cereals",
     "current_price": 950,
     "unit": "kg",
@@ -19,7 +19,7 @@
   },
   {
     "id": "2",
-    "name": "Cashews",
+    "name": "Korosho (Cashews)",
     "category": "Nuts",
     "current_price": 2400,
     "unit": "kg",
@@ -37,7 +37,7 @@
   },
   {
     "id": "3",
-    "name": "Coffee",
+    "name": "Kahawa (Coffee)",
     "category": "Nuts",
     "current_price": 5200,
     "unit": "kg",
@@ -55,7 +55,7 @@
   },
   {
     "id": "4",
-    "name": "Rice",
+    "name": "Mpunga (Rice)",
     "category": "Cereals",
     "current_price": 1100,
     "unit": "kg",
@@ -73,7 +73,7 @@
   },
   {
     "id": "5",
-    "name": "Tomatoes",
+    "name": "Nyanya (Tomatoes)",
     "category": "Vegetables",
     "current_price": 800,
     "unit": "kg",
@@ -91,7 +91,7 @@
   },
   {
     "id": "6",
-    "name": "Beans",
+    "name": "Maharage (Beans)",
     "category": "Legumes",
     "current_price": 1800,
     "unit": "kg",
@@ -109,7 +109,7 @@
   },
   {
     "id": "7",
-    "name": "Onions",
+    "name": "Vitunguu (Onions)",
     "category": "Vegetables",
     "current_price": 600,
     "unit": "kg",
@@ -127,7 +127,7 @@
   },
   {
     "id": "8",
-    "name": "Pineapple",
+    "name": "Mnanasi (Pineapple)",
     "category": "Fruits",
     "current_price": 1200,
     "unit": "kg",
