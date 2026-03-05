@@ -10,26 +10,24 @@ struct CropRowView: View {
             
             // Main Info
             VStack(alignment: .leading, spacing: 4) {
-                HStack(alignment: .center, spacing: 8){
+                
+                Text(crop.name)
+                    .font(.system(.body, design: .rounded, weight: .semibold))
+                    .foregroundStyle(AppTheme.textPrimary)
 
-                    Text(crop.name)
-                        .font(.system(.body, design: .rounded, weight: .semibold))
-                        .foregroundStyle(AppTheme.textPrimary)
-
-                    Text(crop.category)
-                        .font(.system(size: 10, weight: .semibold))
-                        .foregroundColor(Color.green.opacity(0.8))
-                        .padding(.horizontal, 8)
-                        .padding(.vertical, 2)
-                        .background(
-                            Capsule()
-                                .fill(Color.green.opacity(0.15))
-                                .overlay(
-                                    Capsule()
-                                        .stroke(Color.green.opacity(0.4), lineWidth: 1)
-                                )
-                        )
-                }
+                Text(crop.category)
+                    .font(.system(size: 10, weight: .semibold))
+                    .foregroundColor(Color.green.opacity(0.8))
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 2)
+                    .background(
+                        Capsule()
+                            .fill(Color.green.opacity(0.15))
+                            .overlay(
+                                Capsule()
+                                    .stroke(Color.green.opacity(0.4), lineWidth: 1)
+                            )
+                    )
 
                 Label(crop.region, systemImage: "mappin.circle.fill")
                     .font(.caption)

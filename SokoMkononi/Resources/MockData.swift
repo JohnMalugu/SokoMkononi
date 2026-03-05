@@ -6,7 +6,7 @@ extension CropDTO {
     static let mockData: [CropDTO] = [
         CropDTO(
             id: "1",
-            name: "Mahindi (Mahindi)",
+            name: "Maize",
             category: "Cereals",
             currentPrice: 950,
             unit: "kg",
@@ -24,7 +24,7 @@ extension CropDTO {
         ),
         CropDTO(
             id: "2",
-            name: "Korosho (Cashews)",
+            name: "Cashews",
             category: "Nuts",
             currentPrice: 2400,
             unit: "kg",
@@ -42,7 +42,7 @@ extension CropDTO {
         ),
         CropDTO(
             id: "3",
-            name: "Kahawa (Coffee)",
+            name: "Coffee",
             category: "Nuts",
             currentPrice: 5200,
             unit: "kg",
@@ -60,7 +60,7 @@ extension CropDTO {
         ),
         CropDTO(
             id: "4",
-            name: "Mpunga (Rice)",
+            name: "Rice",
             category: "Cereals",
             currentPrice: 1100,
             unit: "kg",
@@ -78,7 +78,7 @@ extension CropDTO {
         ),
         CropDTO(
             id: "5",
-            name: "Nyanya (Tomatoes)",
+            name: "Tomatoes",
             category: "Vegetables",
             currentPrice: 800,
             unit: "kg",
@@ -96,7 +96,7 @@ extension CropDTO {
         ),
         CropDTO(
             id: "6",
-            name: "Maharage (Beans)",
+            name: "Beans",
             category: "Legumes",
             currentPrice: 1800,
             unit: "kg",
@@ -114,7 +114,7 @@ extension CropDTO {
         ),
         CropDTO(
             id: "7",
-            name: "Vitunguu (Onions)",
+            name: "Onions",
             category: "Vegetables",
             currentPrice: 600,
             unit: "kg",
@@ -132,7 +132,7 @@ extension CropDTO {
         ),
         CropDTO(
             id: "8",
-            name: "Mnanasi (Pineapple)",
+            name: "Pineapple",
             category: "Fruits",
             currentPrice: 1200,
             unit: "kg",
