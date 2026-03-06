@@ -1,9 +1,11 @@
 import SwiftUI
-
+
 struct CropRowView: View {
     let crop: CropDTO
 
-    @AppStorage("favorite_\(crop.id)") private var isFavorite = false
+    @State private var isFavorite: Bool = false
+    @State private var favoriteKey: String = ""
+
     var body: some View {
         HStack(spacing: 12) {
             // Category Icon
@@ -49,6 +51,9 @@ struct CropRowView: View {
 
             Button {
                 isFavorite.toggle()
+                if !favoriteKey.isEmpty {
+                    UserDefaults.standard.set(isFavorite, forKey: favoriteKey)
+                }
             } label: {
                 Image(systemName: isFavorite ? "heart.fill" : "heart")
                     .foregroundStyle(isFavorite ? .red : .secondary)
@@ -59,6 +64,16 @@ struct CropRowView: View {
             Image(systemName: "chevron.right")
                 .font(.caption)
                 .foregroundStyle(.tertiary)
+        }
+        .onAppear {
+            let key = "favorite_\(crop.id)"
+            favoriteKey = key
+            // Load existing value if present
+            if let value = UserDefaults.standard.object(forKey: key) as? Bool {
+                isFavorite = value
+            } else {
+                isFavorite = false
+            }
         }
         .padding(12)
         .background(
