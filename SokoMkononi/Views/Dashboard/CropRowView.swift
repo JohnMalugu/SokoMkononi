@@ -1,8 +1,9 @@
 import SwiftUI
-
+
 struct CropRowView: View {
     let crop: CropDTO
-    
+
+    @AppStorage("favorite_\(crop.id)") private var isFavorite = false
     var body: some View {
         HStack(spacing: 12) {
             // Category Icon
@@ -45,7 +46,16 @@ struct CropRowView: View {
                 
                 TrendBadge(trend: crop.trendDirection)
             }
-            
+
+            Button {
+                isFavorite.toggle()
+            } label: {
+                Image(systemName: isFavorite ? "heart.fill" : "heart")
+                    .foregroundStyle(isFavorite ? .red : .secondary)
+                    .font(.subheadline)
+            }
+            .buttonStyle(.plain)
+
             Image(systemName: "chevron.right")
                 .font(.caption)
                 .foregroundStyle(.tertiary)
